@@ -1,0 +1,46 @@
+<head>
+        <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+    <style>
+        .searchmatch{
+            background-color: #cccccc;
+        }
+        #body {
+            font-family: 'Prompt';         
+        }
+        iframe {
+            width: 90%;
+            height: 500px;
+        }
+        #search {
+            background-color: #000000;
+            border: none;
+            color: white;
+            padding: 4px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: 'Prompt';
+        }
+        #wiki{
+            background-color: #ffffff;
+            border: 1px solid;
+            color: black;
+            padding: 4px 15px;
+            text-align:;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            font-family: 'Prompt';
+        }
+        </style>
+</head>
+
+<body id="body">
+    <h2> WIKI </h2>
+    <input id="wiki" placeholder="Type a word...">
+    <button id="search" onclick="getSeach()" >Search Wikipedia</button>
+    <ul id="resultList"></ul>
+    <script src="wiki.js"></script>
+</body>
